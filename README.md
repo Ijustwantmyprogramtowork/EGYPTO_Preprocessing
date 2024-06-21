@@ -1,4 +1,4 @@
-# A technique to resize images with bounding boxes
+# A Simple technique to resize images with bounding boxes
 
 ## Part 1: the challenge
 I'm currently working on a project with the Egyptology department at the Sorbonne. The goal is to identify which scribe wrote a papyrus based on their calligraphy.
