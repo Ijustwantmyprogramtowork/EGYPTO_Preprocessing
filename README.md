@@ -30,6 +30,15 @@ Another issue was the duplication of filenames. To ensure uniqueness, I generate
 By addressing these issues, I was able to generate a balanced dataset of empty and filled images, preserving the integrity of character shapes and ensuring effective model learning.
 
 
+## Part 2: The model:
+After preprocessing the images, we developed a model based on a simplified version of VGG, consisting of only 10 layers as our Convolutional Neural Network (CNN). We trained the model for 30 epochs (though more epochs could potentially enhance performance) and achieved impressive results, with high accuracy and a notably low bounding box loss.
+
+To validate the model's performance, we compared the predicted bounding boxes to the target bounding boxes. Ensuring the results were acceptable was crucial because a difference of just 10 pixels could obscure the character in the image. Therefore, we aimed for the model to have less than a 10-pixel difference to be deemed accurate.
+
+Regarding classification, there were no issues, indicating that the model effectively distinguished between different categories as intended.
+
+
+
 
 
 
